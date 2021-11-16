@@ -1,0 +1,10 @@
+INSERT INTO `Student_malinin`(`FIO`, `D_R`, `Gruppa`, `Stipendia`, `Kod_spec`) VALUES ('Сидоров',1992-07-23,'4п1',880,3322);
+INSERT INTO `Student_malinin`(`FIO`, `D_R`, `Gruppa`, `Stipendia`, `Kod_spec`) VALUES ('Петров',1993-11-07,'4п1',null,4466);
+INSERT INTO `Student_malinin`(`FIO`, `D_R`, `Gruppa`, `Stipendia`, `Kod_spec`) VALUES ('Сидоров',1992-04-19,'4п1',920,8811);
+INSERT INTO `Student_malinin`(`FIO`, `D_R`, `Gruppa`, `Stipendia`, `Kod_spec`) VALUES ('Григорьев',1992-06-11,'4п1',1200,8811);
+INSERT INTO `Student_malinin`(`FIO`, `D_R`, `Gruppa`, `Stipendia`, `Kod_spec`) VALUES ('Данилова',1993-11-06,'4п1',null,3322);
+INSERT INTO `Student_malinin`(`FIO`, `D_R`, `Gruppa`, `Stipendia`, `Kod_spec`) VALUES ('Андреев',1991-02-25,'4п1',null,3322);
+INSERT INTO `Student_malinin`(`FIO`, `D_R`, `Gruppa`, `Stipendia`, `Kod_spec`) VALUES ('Серова',1992-11-20,'4п1',880,8811);
+INSERT INTO `Student_malinin`(`FIO`, `D_R`, `Gruppa`, `Stipendia`, `Kod_spec`) VALUES ('Коробкова',1991-07-16,'4п1',920,8811);
+INSERT INTO `Student_malinin`(`FIO`, `D_R`, `Gruppa`, `Stipendia`, `Kod_spec`) VALUES ('Подгорнова',1991-09-25,'4п1',1200,4466);
+INSERT INTO `Student_malinin`(`FIO`, `D_R`, `Gruppa`, `Stipendia`, `Kod_spec`) VALUES ('Лебедев',1991-07-26,'4п1',920,4466);

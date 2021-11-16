@@ -1,0 +1,28 @@
+DELIMITER //
+ 
+
+CREATE FUNCTiON Func1_malinin (P Date) RETURNS VarChar(10) 
+
+BEGIN 
+
+DECLARE Y INT ; 
+
+DECLARE M INT ; 
+
+DECLARE D INT ; 
+
+DECLARE S VarChar(10) ; 
+
+SET y = EXTRACT( YEAR FROM P ); 
+
+SET M = EXTRACT( MONTH FROM P ); 
+
+SET D = EXTRACT( DAY FROM P ); 
+
+SET S = CONCAT( D, '.', M, '.', Y ); 
+
+RETURN S ; 
+
+END //
+ 
+DELIMITER ;

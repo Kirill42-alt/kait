@@ -1,0 +1,2 @@
+CREATE TRIGGER TR1 BEFORE INSERT ON Student_malinin FOR EACH ROW
+        SET NEW.Stip_NEW = NEW.Stipendia*2;

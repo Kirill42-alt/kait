@@ -1,0 +1,7 @@
+DELIMITER //
+CREATE PROCEDURE Tr1_malinin (N int)
+BEGIN 
+START TRANSACTION;
+UPDATE Student_malinin SET `Stipendia`=N;
+COMMIT;
+END //

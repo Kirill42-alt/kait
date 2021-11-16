@@ -1,0 +1,7 @@
+DELIMITER //
+CREATE PROCEDURE Tr6_malinin (N int, X int)
+BEGIN 
+START TRANSACTION;
+UPDATE Student_malinin SET `PREMiYA`=Stipendia+X WHERE YEAR(`D_R`)=N;
+COMMIT;
+END //

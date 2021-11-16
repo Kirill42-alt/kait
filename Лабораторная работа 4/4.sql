@@ -1,0 +1,8 @@
+DELIMITER //
+CREATE PROCEDURE Tr4_malinin (S int, Q int, Z int)
+BEGIN 
+START TRANSACTION;
+UPDATE Student_malinin SET `PREMiYA`=PREMiYAY-Z WHERE `Kod_uz`=S;
+UPDATE Student_malinin SET `PREMiYA`=PREMiYAY+Z WHERE `Kod_uz`=Q;
+COMMIT;
+END //

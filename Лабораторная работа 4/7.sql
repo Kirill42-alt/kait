@@ -1,0 +1,7 @@
+DELIMITER //
+CREATE PROCEDURE Tr7_malinin (N int)
+BEGIN 
+START TRANSACTION;
+UPDATE PRODUCTS_malinin SET `all_product`=all_product*N;
+COMMIT;
+END //
